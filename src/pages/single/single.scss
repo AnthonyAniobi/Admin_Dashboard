@@ -38,12 +38,50 @@
                         border-radius: 50%;
                         object-fit: cover;
                     }
+
+                    .details {
+
+                        .itemTitle {
+                            margin-bottom: 10px;
+                            color: #555;
+                        }
+
+                        .detailItem {
+                            margin-bottom: 10px;
+                            font-size: 14px;
+
+                            dis .itemKey {
+                                font-weight: bold;
+                                color: gray;
+                                margin-right: 5px;
+                            }
+
+                            .itemValue {
+                                font-weight: 300;
+
+                            }
+                        }
+                    }
                 }
             }
 
             .right {
                 flex: 2;
             }
+        }
+
+        .bottom {
+            padding: 20px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            margin: 10px 20px;
+
+        }
+
+        .title {
+            font-style: 16px;
+            color: lightgray;
+            margin-bottom: 20px;
         }
     }
 }
