@@ -1,6 +1,6 @@
-# My Admin Application
+# Admin Dashboard Applicaton
 
-This is a react js project with an admin dashboard template that can be reused for any project that requires admin page and also for user management applications.
+This is a react js project with an admin dashboard template that can be reused for websites requiring a dashboard with user and product management.
 
 ## Techonologies
 
@@ -11,11 +11,24 @@ Technologies and libraries used for this project are:
 - rechartsjs
 - react-circular-progressbar
 
+## Preview
+![Dashboard preview](screenshots/dashboardpreview.gif)
 
 ## screenshots
-
 Screenshots for the application are:
-![Homescreen](screenshots/homepage.png)
+
+#### Homepage light theme
+![Homescreen light theme](screenshots/Screenshot-homepage-light.png)
+#### Userlist page light theme
+![User List page light theme](screenshots/Screenshot-userlist-light.png)
+#### User page light theme
+![User page light theme](screenshots/Screenshot-user-light.png)
+#### Homepage dark theme
+![Homescreen dark theme](screenshots/Screenshot-homepage-dark.png)
+#### Userlist dark theme
+![User List page dark theme](screenshots/Screenshot-userlist-dark.png)
+#### User page dark theme
+![User page dark theme](screenshots/Screenshot-user-dark.png)
 
 
 ## setup
