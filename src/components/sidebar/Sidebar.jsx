@@ -1,5 +1,6 @@
 import React from 'react';
 import './sidebar.scss';
+import { Link } from 'react-router-dom';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import StoreIcon from '@mui/icons-material/Store';
@@ -28,10 +29,12 @@ const Sidebar = () => {
                         <span>Dashboard</span>
                     </li>
                     <p className="title">LISTS</p>
-                    <li>
-                        <PersonOutlineIcon />
-                        <span>Users</span>
-                    </li>
+                    <Link to='/users' style={{ textDecoration: 'none' }}>
+                        <li>
+                            <PersonOutlineIcon />
+                            <span>Users</span>
+                        </li>
+                    </Link>
                     <li>
                         <StoreIcon />
                         <span>Products</span>
