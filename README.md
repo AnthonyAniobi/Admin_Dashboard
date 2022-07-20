@@ -1,5 +1,10 @@
 # Admin Dashboard Applicaton
 
+![Issues](https://img.shields.io/github/issues/AnthonyAniobi/Admin_Dashboard)
+![Forks](https://img.shields.io/github/forks/AnthonyAniobi/Admin_Dashboard)
+![Stars](https://img.shields.io/github/stars/AnthonyAniobi/Admin_Dashboard)
+![License](https://img.shields.io/github/license/AnthonyAniobi/Admin_Dashboard)
+
 This is a react js project with an admin dashboard template that can be reused for websites requiring a dashboard with user and product management.
 
 ## Techonologies
